@@ -1,64 +1,72 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(105, 105, 105) 100%);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+margin-bottom: 10px;
 }
 
 h1 {
-    color: #FFF;
-    margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-bottom: 60px;
+  font-size: 50px;
 }
 .keys {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 20px;
 }
 .key {
-    width: 80px;
-    height: 80px;
-    border: 2px solid #FFF;
-    color: #FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-weight: bold;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
 }
 .key.active {
-    border: 2px solid #FF0;
-    color: #FF0;
+  border: 2px solid white;
+  background-color: rgb(201, 64, 87);
+  color: #fff;
+  background: linear-gradient(to top, rgb(202, 23, 23) 20%, rgb(3, 9, 100) 80%);
 }
 
 .composer {
-    width: 260px;
-    margin-top: 20px;
+  width: 360px;
+  margin-top: 50px;
 }
 .composer #input {
-    width: 100%;
-    outline: none;
-    font-size: 17px;
-    padding: 10px 15px;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding: 10px 15px;
 }
 .composer button {
-    width: 100%;
-    height: 40px;
-    background: none;
-    border: 2px solid #FFF;
-    color: #FFF;
-    font-size: 16px;
-    margin-top: 10px;
-    cursor: pointer;
+  width: 100%;
+  height: 40px;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 .composer button:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
 }
-
