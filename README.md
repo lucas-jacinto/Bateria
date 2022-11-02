@@ -1,4 +1,7 @@
 # Projeto Bateria Eletronica
 
-## Fiz usando JavaScript, CSS e HTML
-![bateria_projeto-1](https://user-images.githubusercontent.com/101364011/199555142-88feef12-81b9-4b73-bee4-5900234662b6.png)
+![FireShot Capture 005 - Bateria - 127 0 0 1](https://user-images.githubusercontent.com/101364011/199555313-b5b86b01-e3e2-4161-9a67-13c76698e3aa.png)
+
+Fiz usando JavaScript, HTML e CSS, com objetivo de aplicar meus conhecimentos.
+
+Faça sua Música!!!
